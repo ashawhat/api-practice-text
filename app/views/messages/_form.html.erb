@@ -1,0 +1,12 @@
+<% form_for @message, remote: true do |f| %>
+<%= f.label :Body %>
+<%= f.text_field :Body %><br />
+
+<%= f.label :To %>
+<%= f.text_field :To %><br />
+
+<%= f.label :From %>
+<%= f.text_field :From %><br />
+
+<%= f.submit %>
+<% end %>
